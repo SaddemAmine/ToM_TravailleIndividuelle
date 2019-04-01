@@ -18,7 +18,7 @@ void main(){
     SDL_Surface* scr; SDL_Event event; SDL_Rect pos;
 
     
-    scr = SDL_SetVideoMode(300,300,32,SDL_DOUBLEBUF|SDL_HWSURFACE);
+    scr = SDL_SetVideoMode(512,512,32,SDL_DOUBLEBUF|SDL_HWSURFACE);
     pos.x = 0; pos.y = 0;
 
     rock r;
